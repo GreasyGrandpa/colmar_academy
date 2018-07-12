@@ -7,7 +7,8 @@
   width: 100%;
   height: 100%;
 }
-.mobile{
+.mobile,
+.mobilea{
   display: none;
 }
 /*header*/
@@ -370,5 +371,152 @@ p{
   }
   .mobile{
     display: inline;
+  }
+  .mobilea{
+    display: flex;
+  }
+  /*header fix*/
+  .headera img{
+    height: 70%;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .headera img:first-child{
+    margin-left: 30%;
+  }
+  .headera img:last-child{
+    margin-right: 30%;
+  }
+  .headerb img{
+    height: 70%;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .headerb img:first-child{
+    margin-left: 30%;
+  }
+  .headerb img:last-child{
+    margin-right: 30%;
+  }
+  /*banner1 fix*/
+  .banner{
+    flex-wrap: wrap;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .banner .box{
+    width: 90%;
+  }
+  .box a{
+    background-color: hsla(228, 7%, 53%, 1);
+  }
+  /*banner2 fix*/
+  .bannerb{
+    flex-direction: column;
+  }
+  .bannerb .image{
+    display: none;
+  }
+  .bannerb .right{
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    width: 95%;
+    height: 100%;
+    margin: 0 0;
+  }
+  .bannerb .right .a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .a img{
+    width: 80%;
+    height: 50%;
+  }
+  .aa h1,
+  .aa p{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+  }
+  /*banner3 fix*/
+  .bannerc .b{
+    display: none;
+  }
+  .bannerc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .bannerc div:first-child{
+    background-color: transparent;
+    justify-content: center;
+  }
+  .bannerc div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsla(228, 7%, 90%, 1);
+    width: 90%;
+    height: 30%;
+    margin: 2.5% 0;
+  }
+  .bannerc a{
+    color: hsla(228, 7%, 23%, 1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: hsla(228, 7%, 90%, 1);
+    width: 90%;
+    margin: 5% 5%;
+    text-align: left;
+    text-decoration: none;
+  }
+  /*last banner fix*/
+  .video .stuff{
+    display: none;
+  }
+  .stuffright{
+    display: none;
+  }
+  .video video{
+    width: 100%;
+    height: 100%;
+  }
+  .video{
+    height: 100%;
+    width: 100%;
+  }
+  /*footer fix*/
+  .footera,
+  .footerb{
+    display: none;
+  }
+  .mobilea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .mobilea span,
+  .mobilea a{
+    color: hsla(228, 7%, 60%, 1);
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    font-size: .75rem;
+    margin-top:12%;
+    margin-bottom: 7%;
   }
 }
